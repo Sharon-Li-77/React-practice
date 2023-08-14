@@ -54,7 +54,10 @@ This is the exact same exercise as the one from Foundations, except you're imple
 ### User Story
 
 As a user, when I open the main page I should see 3 unicorns.
-When I click on each unicorn it should cycle through the increasing stages of inflatedness, and once fully inflated, should return to its uninflated state.
+
+When I click on each unicorn it should cycle through the increasing stages of 
+inflatedness, and once fully inflated, should return to its uninflated state.
+
 Each unicorn must inflate independently of the others.
 
   <details style="padding-left: 2em">
@@ -71,7 +74,9 @@ Each unicorn must inflate independently of the others.
 ### User Story
 
 As a user, when I open the main page I should see 2 lists.
+
 When I click on the associated button for each list item, the item should move to the other list.
+
 The lists should remain in alphabetical order whenever any items are moved.
 
   <details style="padding-left: 2em">
@@ -86,13 +91,17 @@ Each list will be a separate array in state.
 ### User Story
 
 As a user, when I open the main page I should see 5 coloured squares.
+
 When I click on one of the squares, it should change to another random colour.
+
 When I double click on a square it should turn black permanently.
+
 When I right click on a square it should chan to a random colour even if it was a locked black square.
 
   <details style="padding-left: 2em">
     <summary>Tip</summary>
 Each square("pixel") will be its own component and the state for the `color` will live inside that component.
+
 Consider keeping the status of the pixel in the component as well, so it can remember if it's been locked to black or not.
   </details>
 
