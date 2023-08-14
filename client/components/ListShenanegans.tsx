@@ -32,6 +32,7 @@ function ListShenanegans() {
           ))}
         </ul>
         {/* right list */}
+        {/* use the ← character for the button in this list */}
         <ul></ul>
       </section>
     </>

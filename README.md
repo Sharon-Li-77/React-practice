@@ -37,7 +37,7 @@ The state for which component is to be displayed will live in the App component,
 
 ---
 
-## Kata Two - Fun with Numbers
+## Kata One - Fun with Numbers
 
 ### User Story
 
@@ -47,7 +47,7 @@ When I click on the buttons the number displayed onscreen should change accordin
 
 ---
 
-## Kata Three - Inflate the Unicorns
+## Kata Two - Inflate the Unicorns
 
 This is the exact same exercise as the one from Foundations, except you're implementing it in React instead of HTML and Javascript!
 
@@ -59,12 +59,14 @@ Each unicorn must inflate independently of the others.
 
   <details style="padding-left: 2em">
     <summary>Tip</summary>
-Consider making your state for this component in the form of an object.
+- Consider making your state for this component in the form of an object.
+- When updating state, use the spread operator
+
   </details>
 
 ---
 
-## Kata Four - List Shenanegans
+## Kata Three - List Shenanegans
 
 ### User Story
 
@@ -79,7 +81,7 @@ Each list will be a separate array in state.
 
 ---
 
-## Kata Five - Pixel Party
+## Kata Four - Pixel Party
 
 ### User Story
 
