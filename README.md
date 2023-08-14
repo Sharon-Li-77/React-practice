@@ -88,6 +88,7 @@ Each list will be a separate array in state.
 As a user, when I open the main page I should see 5 coloured squares.
 When I click on one of the squares, it should change to another random colour.
 When I double click on a square it should turn black permanently.
+When I right click on a square it should chan to a random colour even if it was a locked black square.
 
   <details style="padding-left: 2em">
     <summary>Tip</summary>
