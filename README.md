@@ -15,16 +15,19 @@
   <details style="padding-left: 2em">
     <summary>Tip</summary>
 
-    ```sh
-    npm install
-    npm run dev
-    ```
+  ```sh
+  npm install
+  npm run dev
+  ```
+
   </details>
 
 ---
-## Kata One - Complete the Header component
+
+## Demo setup
 
 ### User Story
+
 As a user, when I open the main page I should see a message saying something like "Select a kata to work on", then when I click on one of the buttons in the header, it should display the corresponding component.
 
   <details style="padding-left: 2em">
@@ -33,13 +36,15 @@ The state for which component is to be displayed will live in the App component,
   </details>
 
 ---
+
 ## Kata Two - Fun with Numbers
 
 ### User Story
-As a user, when I open the main page I should see a number displayed on screen, and some buttons with math operations on them ("x5", "-2" etc). 
+
+As a user, when I open the main page I should see a number displayed on screen, and some buttons with math operations on them ("x5", "-2" etc).
 
 When I click on the buttons the number displayed onscreen should change accordingly e.g. if the number is currently 2 and I press a button saying "x5" the number should change to 10.
- 
+
 ---
 
 ## Kata Three - Inflate the Unicorns
@@ -47,8 +52,9 @@ When I click on the buttons the number displayed onscreen should change accordin
 This is the exact same exercise as the one from Foundations, except you're implementing it in React instead of HTML and Javascript!
 
 ### User Story
-As a user, when I open the main page I should see 3 unicorns. 
-When I click on each unicorn it should cycle through the increasing stages of inflatedness, and once fully inflated, should return to its uninflated state. 
+
+As a user, when I open the main page I should see 3 unicorns.
+When I click on each unicorn it should cycle through the increasing stages of inflatedness, and once fully inflated, should return to its uninflated state.
 Each unicorn must inflate independently of the others.
 
   <details style="padding-left: 2em">
@@ -57,10 +63,12 @@ Consider making your state for this component in the form of an object.
   </details>
 
 ---
+
 ## Kata Four - List Shenanegans
 
 ### User Story
-As a user, when I open the main page I should see 2 lists. 
+
+As a user, when I open the main page I should see 2 lists.
 When I click on the associated button for each list item, the item should move to the other list.
 The lists should remain in alphabetical order whenever any items are moved.
 
@@ -69,12 +77,13 @@ The lists should remain in alphabetical order whenever any items are moved.
 Each list will be a separate array in state.
   </details>
 
-
 ---
+
 ## Kata Five - Pixel Party
 
 ### User Story
-As a user, when I open the main page I should see 5 coloured squares. 
+
+As a user, when I open the main page I should see 5 coloured squares.
 When I click on one of the squares, it should change to another random colour.
 When I double click on a square it should turn black permanently.
 
@@ -85,4 +94,5 @@ Consider keeping the status of the pixel in the component as well, so it can rem
   </details>
 
 ---
+
 [Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=react-kata)
