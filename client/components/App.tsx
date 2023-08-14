@@ -7,28 +7,17 @@ import PixelParty from './PixelParty'
 import Select from './Select'
 
 function App() {
+  const [activeKata, setActiveKata] = useState('select')
   return (
     <>
       <header>
         <h1>React Kata</h1>
         <nav>
           <p>Choose a kata to display</p>
-          <button
-          >
-            Fun with Numbers
-          </button>
-          <button
-          >
-            Inflate the Unicorns
-          </button>
-          <button
-          >
-            List Shenanegans
-          </button>
-          <button
-          >
-            Pixel Party
-          </button>
+          <button>Fun with Numbers</button>
+          <button>Inflate the Unicorns</button>
+          <button>List Shenanegans</button>
+          <button>Pixel Party</button>
         </nav>
       </header>
       <main>
