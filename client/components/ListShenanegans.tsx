@@ -19,7 +19,6 @@ function ListShenanegans() {
     ],
   })
 
-
   return (
     <>
       <h2>List Shenanegans</h2>
@@ -28,13 +27,12 @@ function ListShenanegans() {
         <ul>
           {lists.left.map((item) => (
             <li key={item}>
-              {item} <button >→</button>
+              {item} <button>→</button>
             </li>
           ))}
         </ul>
         {/* right list */}
-        <ul>
-        </ul>
+        <ul></ul>
       </section>
     </>
   )

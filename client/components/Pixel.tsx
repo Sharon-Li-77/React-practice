@@ -9,12 +9,7 @@ function Pixel() {
       .padStart(6, '0')}`
   }
 
-  return (
-    <div
-      className="pixel"
-      style={{ background: color }}
-    ></div>
-  )
+  return <div className="pixel" style={{ background: color }}></div>
 }
 
 export default Pixel

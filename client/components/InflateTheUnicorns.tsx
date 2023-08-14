@@ -1,14 +1,8 @@
-import { useState } from 'react'
-
 const allUnicorns = ['one', 'two', 'three'] as const
 type Unicorn = typeof allUnicorns[number]
 
 function InflateTheUnicorns() {
-
-
-  function handleClick(unicorn: Unicorn) {
-
-  }
+  function handleClick(unicorn: Unicorn) {}
 
   return (
     <>
@@ -16,7 +10,7 @@ function InflateTheUnicorns() {
         <img
           id={unicorn}
           className="unicorn"
-          src='client/images/unicorn-.png'
+          src="client/images/unicorn-.png"
           alt=""
           key={unicorn}
         />

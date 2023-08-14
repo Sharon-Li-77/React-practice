@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 function FunWithNumbers() {
-
   return (
     <>
       <h2>Fun with Numbers</h2>
