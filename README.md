@@ -47,27 +47,25 @@ When I click on the buttons the number displayed onscreen should change accordin
 
 ---
 
-## Kata Two - Inflate the Unicorns
-
-This is the exact same exercise as the one from Foundations, except you're implementing it in React instead of HTML and Javascript!
+## Kata Two - Pixel Party
 
 ### User Story
 
-As a user, when I open the main page I should see 3 unicorns.
+As a user, when I open the main page I should see 5 coloured squares.
 
-When I click on each unicorn it should cycle through the increasing stages of 
-inflatedness, and once fully inflated, should return to its uninflated state.
+When I click on one of the squares, it should change to another random colour.
 
-Each unicorn must inflate independently of the others.
+When I double click on a square it should turn black permanently.
+
+When I right click on a square it should chan to a random colour even if it was a locked black square.
 
   <details style="padding-left: 2em">
     <summary>Tip</summary>
-- Consider making your state for this component in the form of an object.
-- When updating state, use the spread operator
+Each square("pixel") will be its own component and the state for the `color` will live inside that component.
+
+Consider keeping the status of the pixel in the component as well, so it can remember if it's been locked to black or not.
 
   </details>
-
----
 
 ## Kata Three - List Shenanegans
 
@@ -86,23 +84,22 @@ Each list will be a separate array in state.
 
 ---
 
-## Kata Four - Pixel Party
+## Kata Four - Neglect the Pumpkin - oooo0000ooooo0000ooo
 
 ### User Story
 
-As a user, when I open the main page I should see 5 coloured squares.
+As a user, when I open the main page on Halloween I should see 3 pumpkins.
 
-When I click on one of the squares, it should change to another random colour.
+When I click on each pumpkin it should cycle through the increasing stages of
+decay, and once fully gross, it should return to its original state.
 
-When I double click on a square it should turn black permanently.
-
-When I right click on a square it should chan to a random colour even if it was a locked black square.
+Each pumpkin must decay independently of the others.
 
   <details style="padding-left: 2em">
     <summary>Tip</summary>
-Each square("pixel") will be its own component and the state for the `color` will live inside that component.
+- Consider making your state for this component in the form of an object.
+- When updating state, use the spread operator
 
-Consider keeping the status of the pixel in the component as well, so it can remember if it's been locked to black or not.
   </details>
 
 ---
