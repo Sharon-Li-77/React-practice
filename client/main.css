@@ -21,6 +21,10 @@ nav {
   height: 300px;
 }
 
+.p-button {
+  all: unset;
+}
+
 .pixel {
   width: 300px;
   height: 300px;
