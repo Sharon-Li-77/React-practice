@@ -1,4 +1,4 @@
-# React Boilerplate
+# React state kata
 
 ## Packages Included
 
