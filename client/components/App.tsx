@@ -15,17 +15,17 @@ function App() {
         <nav>
           <p>Choose a kata to display</p>
           <button>Fun with Numbers</button>
-          <button>Neglect the Pumpkins</button>
-          <button>List Shenanegans</button>
           <button>Pixel Party</button>
+          <button>List Shenanegans</button>
+          <button>Neglect the Pumpkins</button>
         </nav>
       </header>
       <main>
         {activeKata === 'select' && <Select />}
         {activeKata === 'funWithNumbers' && <FunWithNumbers />}
-        {activeKata === 'neglectThePumpkins' && <NeglectThePumpkins />}
-        {activeKata === 'listShenanegans' && <ListShenanegans />}
         {activeKata === 'pixelParty' && <PixelParty />}
+        {activeKata === 'listShenanegans' && <ListShenanegans />}
+        {activeKata === 'neglectThePumpkins' && <NeglectThePumpkins />}
       </main>
     </>
   )
