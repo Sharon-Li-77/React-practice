@@ -9,7 +9,13 @@ function Pixel() {
       .padStart(6, '0')}`
   }
 
-  return <div className="pixel" style={{ background: color }}></div>
+  return (
+    <button
+      className="pixel"
+      style={{ background: color }}
+      onClick={() => setColor(getColor())}
+    ></button>
+  )
 }
 
 export default Pixel

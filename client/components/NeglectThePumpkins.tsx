@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 const allPumpkins = ['first', 'second', 'third'] as const
 type Pumpkin = typeof allPumpkins[number]
 const decay = [
@@ -8,14 +10,26 @@ const decay = [
 ]
 
 function NeglectThePumpkins() {
+  const [imageNumber, setNumber] = useState({ first: 0, second: 0, third: 0 })
+
   return (
     <>
-      {allPumpkins.map((pumpkin) => (
-        <button key={pumpkin} className="p-button">
+      {allPumpkins.map((pumpkin: Pumpkin) => (
+        <button
+          key={pumpkin}
+          className="p-button"
+          onClick={() => {
+            setNumber({
+              ...imageNumber,
+              [pumpkin]:
+                imageNumber[pumpkin] === 3 ? 0 : imageNumber[pumpkin] + 1,
+            })
+          }}
+        >
           <img
             id={pumpkin}
             className="pumpkin"
-            src={`client/images/pumpkin-0.png`}
+            src={`client/images/pumpkin-${imageNumber[pumpkin]}.png`}
             alt=""
           />
         </button>
